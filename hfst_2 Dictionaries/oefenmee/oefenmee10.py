@@ -1,4 +1,3 @@
-# Vul eerst aan. Daarna pas uitvoeren!
 dictionary = {"a": 0, "b": 1, "c": 1, "d": 2, "e": 3}
 
 """ Geef aan wat volgende code print"""
