@@ -1,0 +1,18 @@
+{
+    "Sophie": {
+        "leeftijd": 16,
+        "hobby's": [
+            "Lezen",
+            "Fotograferen",
+            "Dansen"
+        ]
+    },
+    "Alex": {
+        "leeftijd": 15,
+        "hobby's": [
+          "Videospelen",
+          "Skateborden",
+          "Tekenen"
+        ]
+      }
+}

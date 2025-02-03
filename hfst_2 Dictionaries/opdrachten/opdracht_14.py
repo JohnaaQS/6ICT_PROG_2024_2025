@@ -28,3 +28,13 @@ laptop_config = {
     "supplier": "???",
     "supplier_2": {"id": 1, "name": "SignPost"}
 }
+
+laptop_config["assigned_to"]["created_at"]["date"] = "2021-11-09"
+laptop_config["supplier"] = laptop_config["supplier_2"] 
+laptop_config.pop("supplier_2")
+print(laptop_config)
+
+for key, value in laptop_config.items():
+    if (value, dict) and "id" in value:
+        print(f"ID-waarde: {value['id']}")
+

@@ -15,3 +15,11 @@ landen_feiten = {
         'taal': 'Duits',
     }
 }
+
+print("Overzicht van grootste steden in Europese landen...")
+for land, feiten in landen_feiten.items():
+    for feit, waarde in feiten.items():
+        if feit == 'hoofdstad':
+            print(f"{land}: {waarde}")
+    
+

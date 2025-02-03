@@ -5,9 +5,17 @@ inception_film = {
     'cast': [ 
         {'acteur': 'Leonardo DiCaprio', 'rol': 'Cobb'},
         {'acteur': 'Joseph Gordon-Levitt', 'rol': 'Arthur'},
-        {'acteur': 'Ellen Page', 'rol': 'Ariadne'}
+        {'acteur': 'Ellen Page', 'rol': 'Ariadne'},
+        {'acteur': 'Tom Hardy', 'rol': 'Eames'}
     ],
     'locaties': ['Parijs', 'Los Angeles', 'Tokio'],
     'box_office': {'budget': 160000000, 'opbrengst': 829895144},
-    'awards': {'Oscars': 0, 'Golden Globes': 4}
+    'awards': {'Oscars': 0, 'Golden Globes': 4},
+    'regisseur': 'Christopher Nolan'
 }
+print(inception_film["jaar"])
+print(inception_film["genre"][1])
+print(inception_film['box_office']["opbrengst"])
+print(inception_film["cast"][0]["acteur"])
+inception_film['awards']["Oscars"] = 4
+print(inception_film['awards']["Oscars"]) 

@@ -23,3 +23,12 @@ spelinfo = {
         }
     }
 }
+
+
+for speler, info in spelinfo.items():
+    print(f"Informatie voor {speler}:")
+    print(f"Naam: {info['naam']}")
+    print(f"Positie: x={info['positie']['x']}, y={info['positie']['y']}")
+    print(f"Wapen: {info['inventaris']['wapen']}")
+    print(f"Goud: {info['inventaris']['goud']}")
+    print("-" * 20)
